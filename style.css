@@ -1,0 +1,38 @@
+:root{
+    --dark:#241704;
+    --light:#ebe3d8;
+    --blue:#79839e;
+    --brown:#b46a47;
+    --highlight:#d81e5b;
+
+
+}
+body{
+    background: black;
+    text-align:center;
+    color: var(--light);
+    text-decoration: none;
+}
+a:link {
+    color: var(--light);
+    text-decoration: none;
+}
+
+a:visited{
+    color: var(--light);
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--highlight);
+    text-decoration: none;
+}
+
+
+#my-game {
+    /* optional */
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    border: 3px solid var(--highlight);
+}
